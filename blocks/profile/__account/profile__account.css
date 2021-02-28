@@ -1,0 +1,7 @@
+
+@media screen and (min-width: 1024px) {
+  .profile__account {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,30 @@
+.popup__done {
+  width: 238px;
+  height: 46px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition-duration: 1s;
+  border: none;
+}
+
+.popup__done:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__done {
+    width: 358px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
