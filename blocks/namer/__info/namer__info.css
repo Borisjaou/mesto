@@ -1,4 +1,4 @@
-.popup__info {
+.namer__info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .popup__info {
+  .namer__info {
     font-size: 14px;
     line-height: 17px;
     min-width: 358px;

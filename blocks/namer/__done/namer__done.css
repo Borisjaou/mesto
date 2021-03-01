@@ -1,4 +1,4 @@
-.popup__done {
+.namer__done {
   width: 238px;
   height: 46px;
   background-color: #000000;
@@ -16,12 +16,12 @@
   border: none;
 }
 
-.popup__done:hover {
+.namer__done:hover {
   opacity: .8;
 }
 
 @media screen and (min-width: 1280px) {
-  .popup__done {
+  .namer__done {
     width: 358px;
     height: 50px;
     font-size: 18px;

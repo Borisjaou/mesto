@@ -24,7 +24,6 @@
 @import url(../blocks/places/__about/places__about.css);
 @import url(../blocks/places/__footnote/places__footnote.css);
 @import url(../blocks/places/__like/places__like.css);
-@import url(../blocks/container/container.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__sign/footer__sign.css);
@@ -33,10 +32,11 @@
 @import url(../blocks/popup/__inside/popup__inside.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__user-info/popup__user-info.css);
-@import url(../blocks/popup/__info/popup__info.css);
-@import url(../blocks/popup/__done/popup__done.css);
-@import url(../blocks/popup/popup_is-opened.css);
+@import url(../blocks/namer/__info/namer__info.css);
+@import url(../blocks/namer/__done/namer__done.css);
+@import url(../blocks/popup/_is-opened/popup_is-opened.css);
+
+@import url(../blocks/namer/namer.css);
 
 
 

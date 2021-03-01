@@ -12,6 +12,7 @@
   box-sizing: content-box;
   border-radius: 2px;
   transition-duration: 1s;
+  box-sizing: border-box
 }
 
 .profile__add:hover {
@@ -20,7 +21,7 @@
 
 @media screen and (min-width: 1280px) {
   .profile__add {
-    background-image: url(../../../images/bigplus.svg);
+    background-image: url(../../../images/plus.svg);
     margin: 0;
     width: 150px;
   }

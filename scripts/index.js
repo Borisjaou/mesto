@@ -9,7 +9,7 @@ let profileStatus = document.querySelector('.profile__status');
 let popupUserInfo = document.querySelector('.namer');
 let nameInput = document.querySelector('#name');
 let jobInput = document.querySelector('#job');
-let submitButton = document.querySelector('.popup__done');
+let submitButton = document.querySelector('.namer__done');
 
 function showPopup() {
   popup.classList.add('popup_is-opened');
@@ -17,13 +17,9 @@ function showPopup() {
   jobInput.value = profileStatus.textContent;
 }
 
-showPopupButton.addEventListener('click', showPopup);
-
 function closePopup() {
   popup.classList.remove('popup_is-opened');
 }
-
-closePopupButton.addEventListener('click', closePopup);
 
 function formSubmitHandler (evt) {
   evt.preventDefault();
@@ -32,4 +28,7 @@ function formSubmitHandler (evt) {
   closePopup();
 }
 
+closePopupButton.addEventListener('click', closePopup);
+
+showPopupButton.addEventListener('click', showPopup);
 popupUserInfo.addEventListener('submit', formSubmitHandler);
